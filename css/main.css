@@ -38,19 +38,28 @@ main section#card {
   width: 80%;
 }
 
-main ul {
+main section#card ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-main ul li {
+main section#card ul li {
   margin-bottom: 10px;
 }
 
-main ul li span {
+main section#card ul li span {
   position: absolute;
   width: 30px;
   height: 30px;
+  background-color: #ccdfff;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+main section#card ul li strong {
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 10px;
 }
 /*# sourceMappingURL=main.css.map */
