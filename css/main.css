@@ -43,4 +43,14 @@ main ul {
   margin: 0;
   padding: 0;
 }
+
+main ul li {
+  margin-bottom: 10px;
+}
+
+main ul li span {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
 /*# sourceMappingURL=main.css.map */
