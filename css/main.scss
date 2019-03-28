@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+$colors: (
+  primary: #005dff,
+  accent: #fff6bb
+);
+body,
+html {
+  height: 100%;
+}
+body {
+  font-family: 'Times New Roman', Times, serif
+  background-color: map-get($colors, primary);
+}
